@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-27T16:41:02 IST" name="Default suite" finished-at="2021-08-27T16:44:54 IST" duration-ms="231932">
+    <groups>
+      <group name="regression testing">
+        <method signature="CreateContactTest.TC_07_CreatingContactsSelectingReportsToandClearingItTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" name="TC_07_CreatingContactsSelectingReportsToandClearingItTest" class="contact.CreateContactTest"/>
+        <method signature="CreateContactTest.TC_08_CreateOrganizationWithLeadSourceTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" name="TC_08_CreateOrganizationWithLeadSourceTest" class="contact.CreateContactTest"/>
+        <method signature="CreateContactTest.TC_09_CreateOrganizationWithAssignedToAdministratorTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" name="TC_09_CreateOrganizationWithAssignedToAdministratorTest" class="contact.CreateContactTest"/>
+      </group> <!-- regression testing -->
+      <group name="smoke testing">
+        <method signature="CreateContactTest.TC_07_CreatingContactsSelectingReportsToandClearingItTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" name="TC_07_CreatingContactsSelectingReportsToandClearingItTest" class="contact.CreateContactTest"/>
+      </group> <!-- smoke testing -->
+    </groups>
+    <test started-at="2021-08-27T16:41:02 IST" name="Default test" finished-at="2021-08-27T16:44:54 IST" duration-ms="231932">
+      <class name="contact.CreateContactTest">
+        <test-method is-config="true" signature="ConfigBeforeClass()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:41:02 IST" name="ConfigBeforeClass" finished-at="2021-08-27T16:41:15 IST" duration-ms="12817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigBeforeClass -->
+        <test-method is-config="true" signature="ConfigBeforeMethod()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:41:15 IST" name="ConfigBeforeMethod" finished-at="2021-08-27T16:41:32 IST" duration-ms="16993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigBeforeMethod -->
+        <test-method signature="TC_07_CreatingContactsSelectingReportsToandClearingItTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:41:32 IST" name="TC_07_CreatingContactsSelectingReportsToandClearingItTest" finished-at="2021-08-27T16:42:37 IST" duration-ms="65131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_CreatingContactsSelectingReportsToandClearingItTest -->
+        <test-method is-config="true" signature="ConfigAfterMethod()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:42:37 IST" name="ConfigAfterMethod" finished-at="2021-08-27T16:42:43 IST" duration-ms="5670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAfterMethod -->
+        <test-method is-config="true" signature="ConfigBeforeMethod()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:42:43 IST" name="ConfigBeforeMethod" finished-at="2021-08-27T16:42:58 IST" duration-ms="14937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigBeforeMethod -->
+        <test-method signature="TC_08_CreateOrganizationWithLeadSourceTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:42:58 IST" name="TC_08_CreateOrganizationWithLeadSourceTest" finished-at="2021-08-27T16:43:45 IST" duration-ms="47585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_CreateOrganizationWithLeadSourceTest -->
+        <test-method is-config="true" signature="ConfigAfterMethod()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:43:45 IST" name="ConfigAfterMethod" finished-at="2021-08-27T16:43:51 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAfterMethod -->
+        <test-method is-config="true" signature="ConfigBeforeMethod()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:43:51 IST" name="ConfigBeforeMethod" finished-at="2021-08-27T16:44:04 IST" duration-ms="13068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigBeforeMethod -->
+        <test-method signature="TC_09_CreateOrganizationWithAssignedToAdministratorTest()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:44:04 IST" name="TC_09_CreateOrganizationWithAssignedToAdministratorTest" finished-at="2021-08-27T16:44:48 IST" duration-ms="44393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_CreateOrganizationWithAssignedToAdministratorTest -->
+        <test-method is-config="true" signature="ConfigAfterMethod()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:44:48 IST" name="ConfigAfterMethod" finished-at="2021-08-27T16:44:53 IST" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAfterMethod -->
+        <test-method is-config="true" signature="ConfigAfterClass()[pri:0, instance:contact.CreateContactTest@306f16f3]" started-at="2021-08-27T16:44:53 IST" name="ConfigAfterClass" finished-at="2021-08-27T16:44:54 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAfterClass -->
+      </class> <!-- contact.CreateContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
