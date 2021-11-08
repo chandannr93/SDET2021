@@ -13,7 +13,7 @@ public class FileUtility {
 	/**
 	 * This method will give you the value from the data properties file
 	 * @param key
-	 * @return
+	 * @return String
 	 * @throws IOException
 	 */
 	public String propertyFile(String key) throws IOException
